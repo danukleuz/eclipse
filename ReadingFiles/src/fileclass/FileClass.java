@@ -10,13 +10,13 @@ public class FileClass {
 	public static void main(String[] args)  {
 
 
-		File f = new File("C:\\Users\\Name\\Desktop\\Files\\file.rtf");
+		File f = new File("C:\\Users\\Name\\Desktop\\Files\\file2.rtf");
 		
 		try(PrintWriter writer = new PrintWriter(f)){ //try with resources auto closes the resource
 			writer.println("Yo man");
 			writer.println("Wassup");
 			writer.println("You chillin?");
-			writer.println("Nah nah nigga");
+			writer.println("Nah dogg");
 			
 			
 		} catch (FileNotFoundException e) {
